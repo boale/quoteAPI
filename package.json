@@ -58,13 +58,6 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.2.3"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "jest": {
     "moduleFileExtensions": [
       "js",
